@@ -1,0 +1,161 @@
+.menu{
+	text-align:center;
+	
+	}
+.menu a{
+	color: black;
+	display:inline-block;
+	width:100px;
+	padding: 20px 40px;
+	font-weight: lighter;
+	
+	}
+.menu a:hover{
+	background-color: #ccc;
+
+	}
+.header{
+	text-align:center;
+	background-color: white;
+  	color: white;
+	padding:200px 0;
+	background-image: url(img/polygons.png);
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	}
+a { text-decoration: none; }
+.header a {
+	padding:12px 24px;
+	background-color: white;
+	border-radius:10px;
+	color:black;
+	display:inline-block;
+	margin-top: 45px;
+	}
+.header a:hover{
+	color:#b1b1b2;
+}
+.header p{
+	margin: 45px 0;
+}
+.about-company img{
+	width: 400px;
+	}
+.about-company{
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 40px 0;
+	text-align: center;
+	width: 100%;
+	height: 300px;
+	}
+.text{
+	width: 70%;
+	float: left;
+}
+.image{
+	width: 30%;
+	float: right;
+}
+.member{
+	display: inline-block;
+	width: 20%;
+	margin: 20px 10px;
+	border: 2px solid grey;
+	padding: 20px;
+	text-align: center;
+	}
+.member img{
+	width: 100%;
+	}
+.member h3 {
+	font-weight: 400;
+  	font-size: 24px;
+	}
+.team{
+	text-align: center;
+}
+.member a{
+	display: inline-block;
+	width: 100%;
+	background-color: #055b73;
+  	border-radius: 10px;
+  	color: white;
+  	padding: 14px 0
+}
+.tariff li {
+	list-style-type: none;
+	 border: 1px solid #ddd;
+	 padding: 16px 0;
+	 text-align: center;
+}
+.tariff .tariff-name{
+	color: white;
+	background-color: black;
+	font-size: 24px;
+	padding: 32px 0;
+
+}
+.tariff .best{
+	background-color: #055b73;
+	padding: 48px 0;
+}
+.tariff{
+	display: inline-block;
+	width: 30%;
+	min-width: 150px;
+	margin: 10px;
+	vertical-align: middle;
+	background-color: white;
+	padding: 0;
+}
+.tariff li:last-child {
+  background-color: #f1f1f1;
+  padding: 24px 0;
+}
+.tariff a{
+	background-color: black;
+	padding: 12px 24px;
+	color: white;
+	text-decoration: none;
+}
+.tariff a:hover{
+	background-color: white;
+	color: black;
+}
+.prices {
+  background-color: #616161;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.prices h2,
+.prices p {
+  color: white;
+}
+.contact{
+	background-color: #f1f1f1;
+	text-align: center;
+	padding: 40px 0;
+}
+.contact input{
+	padding: 8px;
+	width: 90%;
+}
+.contact button{
+	background-color: #000;
+	color: #fff;
+	padding: 8px 16px;
+	cursor: pointer;
+}
+.contact button:hover{
+	background-color: #fff;
+	color: #000;
+}
+.footer {
+	width: 100%;
+	background-color: #000;
+	color: #fff;
+}
+
